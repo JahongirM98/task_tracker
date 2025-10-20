@@ -1,0 +1,166 @@
+# ============================================
+# 🔹 BASIC
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# ============================================
+# 🔹 VIRTUAL ENVIRONMENTS
+# ============================================
+venv/
+env/
+.venv/
+.env/
+ENV/
+.ENV/
+
+# poetry / pipenv
+.poetry/
+Pipfile.lock
+poetry.lock
+
+# ============================================
+# 🔹 DJANGO / FLASK / FASTAPI
+# ============================================
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+*.db
+instance/
+media/
+staticfiles/
+static_root/
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================
+# 🔹 CONFIGS and SENSITIVE DATA
+# ============================================
+*.env
+.env.*
+config.json
+config.yaml
+secrets.json
+*.pem
+*.key
+*.crt
+*.csr
+
+# ============================================
+# 🔹 IDE and EDITORS
+# ============================================
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+.code-workspace
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# 🔹 CACHES AND SERVICE FILES
+# ============================================
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+test-results.xml
+
+# ============================================
+# 🔹 DOCKER AND CONTAINERS
+# ============================================
+*.pid
+*.tar
+*.gz
+*.bak
+*.swp
+*.tmp
+Dockerfile~
+docker-compose.override.yml
+
+# ============================================
+# 🔹 SYSTEM FILES
+# ============================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ============================================
+# 🔹 FRONTEND / BUILD (if used)
+# ============================================
+node_modules/
+dist/
+build/
+*.min.js
+*.map
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ============================================
+# 🔹 JUPYTER / IPYTHON
+# ============================================
+.ipynb_checkpoints
+*.ipynb
+.profile_default/
+.ipython/
+
+# ============================================
+# 🔹 LOCAL DATA AND EXPORTS
+# ============================================
+*.csv
+*.tsv
+*.xls*
+*.ods
+*.parquet
+*.feather
+*.h5
+*.dat
+*.tmp
+*.bak
+*.swp
+
+# ============================================
+# 🔹 BACKUPS, TEMPORARY AND ARCHIVES
+# ============================================
+*.bak
+*.old
+*.orig
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak~
+*~
+
+# ============================================
+# 🔹 DERIVATIVE FILES (REPORTS, EXPORTS)
+# ============================================
+logs/
+reports/
+output/
+export/
+uploads/
+tmp/
+temp/
